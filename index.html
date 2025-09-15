@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Todo List Practice</title>
+
+ <link rel="stylesheet" href="styles/todo-list.css">
+   
+</head>
+<body>
+  <p>Todo List</p>
+ <div class="input-grid">
+  <input placeholder="Todo name"
+  class="js-name-input todo-name" onkeydown="
+  keyEvent(event);
+  ">
+
+  <input type="date" class="js-date-input date-input" onkeydown="
+  keyEvent(event);
+  ">
+  <button onclick="
+    addTodo();
+  " class="add-button">Add</button>
+ </div>
+
+  <div class="js-todo todo-grid"></div>
+
+  <script src="script/todo-list.js"></script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List Dark Theme</title>
+  <link rel="stylesheet" href="styles/todo-list.css">
+</head>
+
+<body>
+  <div class="todo-container">
+    <p>Todo List</p>
+
+    <!-- Input Section -->
+    <div class="input-grid">
+      <input placeholder="Todo name" class="js-name-input todo-name" onkeydown="keyEvent(event)">
+
+      <input type="date" class="js-date-input date-input" onkeydown="keyEvent(event)">
+
+      <button onclick="addTodo();" class="add-button">Add</button>
+    </div>
+
+    <!-- Todo Items -->
+    <div class="js-todo todo-grid"></div>
+  </div>
+
+  <script src="script/todo-list.js"></script>
+</body>
+
+</html>
